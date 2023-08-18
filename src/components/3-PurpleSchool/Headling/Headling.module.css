@@ -2,26 +2,26 @@
 .headling__top {
   color: var(--color-secondary);
   font-family: Fira Sans;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 400;
   line-height: 120%;
-  margin-bottom: 8px;
+  margin-bottom: .8rem;
 }
 
 .headling__bottom {
   color: var(--color-text);
-  font-size: 46px;
+  font-size: 4.6rem;
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  margin: 0 0 32px 0;
+  margin: 0 0 3.2rem 0;
 }
 
 
 @media (max-width: 640px) {
   .headling__bottom {
-     font-size: 34px;
-      margin: 0 0 24px 0;
+     font-size: 3.4rem;
+      margin: 0 0 2.4rem 0;
   }
 }
 

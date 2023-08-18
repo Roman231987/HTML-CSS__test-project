@@ -16,18 +16,4 @@ const Headling: React.FC<HeadlingProps> = ({ text_top, text_bootom }) => {
 
 export default Headling;
 
-// interface HeadlingProps {
-//   children: React.ReactNode;
-// }
 
-// const Headling: React.FC<HeadlingProps> = ({ children }) => {
-//   return (
-//     <div
-//       className={`${styles.headling} ${styles.headling__top} ${styles.headling__bottom}`}
-//     >
-//       {children}
-//     </div>
-//   );
-// };
-
-// export default Headling;

@@ -8,24 +8,25 @@
   --color-bg-light: #2e2d3d;
   --color-bg-medium: #1e1f29;
   --color-bg-footer: #101114;
-  --space-10: 10px;
+  --space-10: 1rem;
   --color-stroke: #4d5064;
-  --border-8: 8px;
-  --border-10: 10px;
-  --layout-width: 1268px;
-   --grad-1: linear-gradient(158deg, #d77be5 0%, #be63e5 34.69%, #6c38cc 100%);
+  --border-8: 0.8rem;
+  --border-10: 1rem;
+  --layout-width: 126.8rem;
+  --grad-1: linear-gradient(158deg, #d77be5 0%, #be63e5 34.69%, #6c38cc 100%);
 }
 
- 
 * {
   box-sizing: border-box;
 }
 
-      /* Зглажування шрифтів */
-html { 
+/* Зглажування шрифтів */
+html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  /* Перехід з  (px)  на  (rem) */
+  font-size: 62.5%;
 }
 
 body {

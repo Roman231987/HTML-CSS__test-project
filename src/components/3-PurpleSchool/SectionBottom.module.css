@@ -4,30 +4,30 @@
 .section__wrapper {
   max-width: var(--layout-width);
   margin: 0 auto;
-  padding: 100px 24px;
+  padding: 10rem 2.4rem;
 }
 
 .social__icons_activ {
-  margin-bottom: 48px;
+  margin-bottom: 4.8rem;
 }
 
 .section__paragraph {
-  max-width: 787px;
+  max-width: 78.7rem;
   color: var(--color-text);
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 400;
   line-height: 150%;
-  margin: 0 0 32px 0;
+  margin: 0 0 3.2rem 0;
 }
 
 .section__button {
   display: flex;
   justify-content: center;
-  margin-top: 48px;
+  margin-top: 4.8rem;
 }
 
 .button_ghost {
-  border: 1px solid var(--color-stroke);
+  border: .1rem solid var(--color-stroke);
 }
 
 .button_ghost:hover {
@@ -36,10 +36,10 @@
 
 @media (max-width: 860px) {
   .button_ghost {
-    width: 312px;
-    padding: 12px 24px;
+    width: 31.2rem;
+    padding: 1.2rem 2.4rem;
   }
   .section__wrapper {
-     padding: 52px 24px 32px;
+     padding: 5.2rem 2.4rem 3.2rem;
   }
 }

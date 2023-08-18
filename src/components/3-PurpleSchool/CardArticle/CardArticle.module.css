@@ -1,25 +1,25 @@
 .card {
   background: var( --color-bg-medium);
-  border-radius: 10px;
-  padding: 34px 40px 10px 32px;
+  border-radius: 1rem;
+  padding: 3.4rem 4rem 1rem 3.2rem;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 32px;
+  margin-bottom: 3.2rem;
 }
 
 .card__article {
-  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
 }
 
 .card__img {
   display: flex;
-  gap: 32px;
+  gap: 3.2rem;
 }
 
 .card__h3 {
-  margin: 12px 0;
+  margin: 1.2rem 0;
   color: var(--color-text);
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 700;
   line-height: 120%;
 }
@@ -31,15 +31,15 @@
 .card__paragraph p {
   color: var(--color-text);
   font-family: Fira Sans;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 150%;
-  width: 742px;
+  width: 74.2rem;
   margin: 0;
 }
 
 .button_ghost {
-  border: 1px solid var(--color-stroke);
+  border: .1rem solid var(--color-stroke);
 }
 
 .button_ghost:hover {
@@ -56,19 +56,19 @@
   }
 
   .button_ghost {
-    width: 279px;
+    width: 27.9rem;
   }
 }
 
 @media (max-width: 640px) {
   .card {
-     padding: 27px 16px 24px 16px;
-      margin-bottom: 24px;
+     padding: 2.7rem 1.6rem 2.4rem 1.6rem;
+      margin-bottom: 2.4rem;
   }
   .card__img {
-    gap: 12px;
+    gap: 1.2rem;
   }
   .card__h3 {
-    font-size: 21px;
+    font-size: 2.1rem;
   }
 }
