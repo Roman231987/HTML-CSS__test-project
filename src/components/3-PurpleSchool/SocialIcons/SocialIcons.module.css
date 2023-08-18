@@ -1,0 +1,13 @@
+.social__icons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+ }
+
+.social__icons_icon {
+  text-decoration: none;
+}
+
+.social__icons_icon:hover {
+    background-color: var(--color-bg-medium)
+}

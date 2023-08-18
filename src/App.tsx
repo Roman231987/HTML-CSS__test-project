@@ -1,24 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/3-PurpleSchool/Header";
+import Footerr from "./components/3-PurpleSchool/Footerr";
+import SectionBottom from "./components/3-PurpleSchool/SectionBottom";
+import SectionTop from "./components/3-PurpleSchool/SectionTop";
+import SectionCentral from "./components/3-PurpleSchool/SectionCentral";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <main>
+        <SectionTop />
+        <SectionCentral />
+        <SectionBottom />
+      </main>
+      <Footerr />
     </div>
   );
 }

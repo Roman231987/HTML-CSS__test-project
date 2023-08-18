@@ -1,0 +1,38 @@
+
+.headling__top {
+  color: var(--color-secondary);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 8px;
+}
+
+.headling__bottom {
+  color: var(--color-text);
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin: 0 0 32px 0;
+}
+
+
+@media (max-width: 640px) {
+  .headling__bottom {
+     font-size: 34px;
+      margin: 0 0 24px 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

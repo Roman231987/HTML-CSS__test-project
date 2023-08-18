@@ -1,0 +1,43 @@
+.CardInfo {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 10px;
+  background: var(--violet-dark, #2e2d3d);
+  padding: 48px 24px 48px 24px;
+}
+
+.CardInfo__info {
+  text-align: center;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+
+  background: var(--grad-1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.CardInfo__text {
+  color: var(--color-text);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+@media (max-width: 1200px) {
+  .CardInfo {
+    width: 312px;
+  }
+}
+
+@media (max-width:640px) {
+  .CardInfo {
+    padding: 16px 20px ;
+  }
+}

@@ -1,0 +1,79 @@
+.section__central {
+  background: var(--color-bg-medium);
+}
+
+.section__central_wrap {
+  max-width: var(--layout-width);
+  margin: 0 auto;
+  padding: 100px 24px 100px;
+}
+
+.section__central_paragraph {
+  max-width: 787px;
+  color: var(--color-text);
+  font-size: 18px;
+  line-height: 150%;
+  margin: 0 0 48px 0;
+}
+
+.SectionCentral__CardInfo {
+  display: flex;
+  gap: 70px;
+  margin-bottom: 70px;
+}
+
+.section__central_h2 {
+  color: var(--color-text);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin: 0 0 32px 0;
+}
+
+.SectionCentral__CardRating {
+  display: flex;
+  gap: 70px;
+}
+
+@media (max-width: 1270px) {
+  .SectionCentral__CardInfo {
+  
+    gap: 35px;
+  }
+  .SectionCentral__CardRating {
+    gap: 35px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .section__central_wrap {
+    padding: 32px 24px 32px;
+  }
+  .section__central_paragraph{
+     margin: 0 0 24px 0;
+  }
+  .SectionCentral__CardInfo {
+    flex-direction: column;
+    align-items: center;
+     margin-bottom: 32px
+  }
+  .section__central_h2 {
+     margin: 0 0 24px 0;
+  }
+  .SectionCentral__CardRating {
+    flex-direction: column;
+     align-items: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .SectionCentral__CardInfo {
+     gap: 16px;
+  }
+    .SectionCentral__CardRating {
+    gap: 16px;
+  }
+}
+
+
